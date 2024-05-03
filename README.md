@@ -1,9 +1,8 @@
-## v2.1 
-- Added Blueprint and C++ GameDriver API
-- Improvements to the Recorder and Editor tools
-- Improved input recording/playback
-- Added access to struct and Array fields in objects
+## 2024.05 Release Notes
 
+- Added Websocket support
+- Allow GameDriver to work while Unreal Game is paused
+- Allow GameDriver usage while game is not running (in editor). 
 
 ## Concept
 
@@ -14,11 +13,11 @@
 ## What you do next
 
 1. If it does not already exist create a "Plugins" directory inside the root of your project.
-2. Grab the GameDriver folder from inside the folder corresponding to your unreal engine version (4_27, 5_1, ETC) and copy it into the Plugin folder.
+2. Grab the GameDriver folder from inside the folder corresponding to your unreal engine version (4_27, 5_1, etc.) and copy it into the Plugin folder.
 3. Place a valid license (gdio.license.txt) in a folder named "GameDriver" inside the "Content" folder of your project. A trial license can be requested at gamedriver.io/trial or by contacting sales@gamedriver.io.
 4. Optionally, copy the provided `sample.gdio.unreal_agent.config.txt` to the same folder as above. Rename the file to `gdio.unreal_agent.config.txt`
 5. Open the project and click run to see the GDIO panel displaying. 
-6. Now you're ready to write external tests! You can connect to the running agent from your own test project using GameDriver's unreal_api in the zip file contained herein.
+6. Now you're ready to write external tests! You can connect to the running agent from your own test project using GameDriver's unreal_api which you can download free from gamedriver.io.
 
 ## Common issues
 
